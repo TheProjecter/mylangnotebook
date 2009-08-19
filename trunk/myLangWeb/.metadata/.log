@@ -1,0 +1,652 @@
+!SESSION 2009-06-02 23:42:14.820 -----------------------------------------------
+eclipse.buildId=I20080617-2000
+java.version=1.6.0_0
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2009-06-02 23:43:51.776
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2009-06-02 23:43:51.776
+!MESSAGE Cannot bind to an undefined command: plug-in='com.aptana.ide.editors', id='org.eclipse.ui.edit.text.openExternalFile'
+
+!ENTRY org.eclipse.jface 2 0 2009-06-02 23:44:11.152
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-06-02 23:44:11.152
+!MESSAGE A conflict occurred for ALT+SHIFT+V:
+Binding(ALT+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.move.element,Move - Refactoring ,
+		Move the selected element to a new location,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+V,
+	ParameterizedCommand(Command(com.aptana.ide.editor.php.contentassist.refactoring.modulemove,Move module,
+		Moves module,
+		Category(com.aptana.ide.editor.php.contentassist.refactoring,Aptana Refactoring,Aptana Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,com.aptana.ide.editor.php.refactoring.MoveModuleRefactoringAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-06-02 23:44:11.152
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(com.aptana.ide.editor.php.contentassist.refactoring.modulerename,Rename module,
+		Renames module,
+		Category(com.aptana.ide.editor.php.contentassist.refactoring,Aptana Refactoring,Aptana Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,com.aptana.ide.editor.php.refactoring.RenameModuleRefactoringAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.workbench 2 0 2009-06-02 23:44:15.582
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2009-06-02 23:44:15.582
+!MESSAGE Conflict for 'org.eclipse.ltk.ui.refactor.show.refactoring.history':
+HandlerActivation(commandId=org.eclipse.ltk.ui.refactor.show.refactoring.history,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.jdt.internal.ui.refactoring.actions.ShowRefactoringHistoryAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.jdt.ui.CodingActionSet,org.eclipse.ui.internal.WorkbenchWindow@196bac4),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@196bac4)),sourcePriority=16640)
+HandlerActivation(commandId=org.eclipse.ltk.ui.refactor.show.refactoring.history,
+	handler=ActionDelegateHandlerProxy(null,com.aptana.ide.editor.php.refactoring.RefactoringHistoryExecutableExtensionFactory),
+	expression=AndExpression(ActionSetExpression(com.aptana.ide.editor.php.contentassist.refactoring,org.eclipse.ui.internal.WorkbenchWindow@196bac4),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@196bac4)),sourcePriority=16640)
+
+!ENTRY com.aptana.ide.intro 4 0 2009-06-02 23:44:37.012
+!MESSAGE (Build 1.4.0.24520) [ERROR] Feature store does not exist
+
+!ENTRY com.aptana.ide.server.portal 4 0 2009-06-02 23:44:46.501
+!MESSAGE (Build 1.4.0.24372) [ERROR] License Channel: Days Left:19
+
+!ENTRY com.aptana.ide.server.portal 4 0 2009-06-02 23:44:46.501
+!MESSAGE (Build 1.4.0.24372) [ERROR] License Channel: Key is valid but unable to get calendar from the key's expiration.
+
+!ENTRY com.aptana.ide.server.portal 4 0 2009-06-02 23:44:47.130
+!MESSAGE (Build 1.4.0.24372) [ERROR] License Channel: Days Left:19
+
+!ENTRY com.aptana.ide.server.portal 4 0 2009-06-02 23:44:47.130
+!MESSAGE (Build 1.4.0.24372) [ERROR] License Channel: Key is valid but unable to get calendar from the key's expiration.
+
+!ENTRY org.eclipse.ui 4 4 2009-06-02 23:47:51.862
+!MESSAGE Unable to find view with id: com.aptana.ide.samples.SamplesView, when creating perspective com.aptana.ide.js.ui.WebPerspective
+
+!ENTRY org.eclipse.ui 4 4 2009-06-02 23:47:51.863
+!MESSAGE Unable to find view with id: com.aptana.ide.framework.jaxer.interactiveConsole, when creating perspective com.aptana.ide.js.ui.WebPerspective
+
+!ENTRY org.eclipse.ui 4 4 2009-06-02 23:47:51.864
+!MESSAGE Unable to find view with id: com.aptana.ide.documentation.jquery.visualjquery, when creating perspective com.aptana.ide.js.ui.WebPerspective
+
+!ENTRY org.eclipse.ui 4 4 2009-06-02 23:47:51.864
+!MESSAGE Unable to find view with id: com.aptana.ide.framework.jaxer.monitor, when creating perspective com.aptana.ide.js.ui.WebPerspective
+
+!ENTRY org.eclipse.ui 4 4 2009-06-02 23:47:51.868
+!MESSAGE Unable to find Action Set: com.aptana.ide.server.ui.launchActionSet
+
+!ENTRY org.eclipse.ui.workbench 4 0 2009-06-02 23:48:33.899
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.model.WorkbenchLabelProvider.dispose(WorkbenchLabelProvider.java:118)
+	at com.aptana.ide.editor.php.elements.view.PHPCombinedLabelProvider.dispose(PHPCombinedLabelProvider.java:67)
+	at com.aptana.ide.editor.php.elements.view.PHPElementsView.dispose(PHPElementsView.java:128)
+	at org.eclipse.ui.internal.WorkbenchPartReference.doDisposePart(WorkbenchPartReference.java:730)
+	at org.eclipse.ui.internal.ViewReference.doDisposePart(ViewReference.java:105)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:681)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1682)
+	at org.eclipse.ui.internal.WorkbenchPage.partRemoved(WorkbenchPage.java:1674)
+	at org.eclipse.ui.internal.ViewFactory.releaseView(ViewFactory.java:256)
+	at org.eclipse.ui.internal.Perspective.hideView(Perspective.java:591)
+	at org.eclipse.ui.internal.WorkbenchPage.hideView(WorkbenchPage.java:2348)
+	at org.eclipse.ui.internal.ViewPane.doHide(ViewPane.java:212)
+	at org.eclipse.ui.internal.PartStack.close(PartStack.java:543)
+	at org.eclipse.ui.internal.PartStack.close(PartStack.java:526)
+	at org.eclipse.ui.internal.PartStack$1.close(PartStack.java:122)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(TabbedStackPresentation.java:83)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:267)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:276)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder.access$1(DefaultTabFolder.java:1)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder$1.closeButtonPressed(DefaultTabFolder.java:70)
+	at org.eclipse.ui.internal.presentations.PaneFolder.notifyCloseListeners(PaneFolder.java:626)
+	at org.eclipse.ui.internal.presentations.PaneFolder$3.close(PaneFolder.java:206)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:2171)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:324)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1158)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3401)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3033)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:382)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2009-06-03 00:07:50.387
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.internal.provisional.p2.core.ProvisionException: Exception connecting to http://update.aptana.com/install/frameworks/ext/features/com.extjs.ext.1.0_1.0.1.0003.jar.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:196)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:453)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:376)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepository.generateMetadata(UpdateSiteMetadataRepository.java:108)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepository.<init>(UpdateSiteMetadataRepository.java:73)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:48)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:485)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:452)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:435)
+	at com.aptana.ide.internal.update.manager.P2PluginManager$1.run(P2PluginManager.java:112)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.FileNotFoundException: http://update2.aptana.org/frameworks/23916/ext/features/com.extjs.ext.1.0_1.0.1.0003.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1259)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:237)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:639)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:381)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:95)
+	at org.eclipse.equinox.internal.p2.updatesite.ECFTransport.transfer(ECFTransport.java:284)
+	at org.eclipse.equinox.internal.p2.updatesite.ECFTransport.performDownload(ECFTransport.java:193)
+	at org.eclipse.equinox.internal.p2.updatesite.ECFTransport.download(ECFTransport.java:167)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:191)
+	... 10 more
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2009-06-03 00:07:50.389
+!MESSAGE Exception connecting to http://update.aptana.com/install/frameworks/ext/features/com.extjs.ext.1.0_1.0.1.0003.jar.
+!STACK 0
+java.io.FileNotFoundException: http://update2.aptana.org/frameworks/23916/ext/features/com.extjs.ext.1.0_1.0.1.0003.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1259)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:237)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:639)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:381)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:95)
+	at org.eclipse.equinox.internal.p2.updatesite.ECFTransport.transfer(ECFTransport.java:284)
+	at org.eclipse.equinox.internal.p2.updatesite.ECFTransport.performDownload(ECFTransport.java:193)
+	at org.eclipse.equinox.internal.p2.updatesite.ECFTransport.download(ECFTransport.java:167)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:191)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:453)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:376)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepository.generateMetadata(UpdateSiteMetadataRepository.java:108)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepository.<init>(UpdateSiteMetadataRepository.java:73)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:48)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:485)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:452)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:435)
+	at com.aptana.ide.internal.update.manager.P2PluginManager$1.run(P2PluginManager.java:112)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.equinox.p2.updatesite 4 0 2009-06-03 00:07:50.389
+!MESSAGE Error reading feature http://update.aptana.com/install/frameworks/ext/features/com.extjs.ext.1.0_1.0.1.0003.jar.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2009-06-03 00:07:59.087
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.internal.provisional.p2.core.ProvisionException: Exception connecting to http://update.aptana.com/update/frameworks/ext/features/com.extjs.ext.1.0_1.0.1.0003.jar.
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:196)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:453)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:376)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepository.generateMetadata(UpdateSiteMetadataRepository.java:108)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepository.<init>(UpdateSiteMetadataRepository.java:73)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:48)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:485)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:452)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:435)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.gatherAvailableInstallableUnits(SimplePlanner.java:196)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getProvisioningPlan(SimplePlanner.java:235)
+	at org.eclipse.equinox.internal.provisional.p2.ui.operations.ProvisioningUtil.getProvisioningPlan(ProvisioningUtil.java:210)
+	at org.eclipse.equinox.internal.provisional.p2.ui.actions.InstallAction.computeProvisioningPlan(InstallAction.java:80)
+	at com.aptana.ide.internal.update.manager.P2PluginManager$2.run(P2PluginManager.java:185)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.FileNotFoundException: http://update2.aptana.org/frameworks/23916/ext/features/com.extjs.ext.1.0_1.0.1.0003.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1259)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:237)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:639)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:381)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:95)
+	at org.eclipse.equinox.internal.p2.updatesite.ECFTransport.transfer(ECFTransport.java:284)
+	at org.eclipse.equinox.internal.p2.updatesite.ECFTransport.performDownload(ECFTransport.java:193)
+	at org.eclipse.equinox.internal.p2.updatesite.ECFTransport.download(ECFTransport.java:167)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:191)
+	... 14 more
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2009-06-03 00:07:59.088
+!MESSAGE Exception connecting to http://update.aptana.com/update/frameworks/ext/features/com.extjs.ext.1.0_1.0.1.0003.jar.
+!STACK 0
+java.io.FileNotFoundException: http://update2.aptana.org/frameworks/23916/ext/features/com.extjs.ext.1.0_1.0.1.0003.jar
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1259)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.UrlConnectionRetrieveFileTransfer.openStreams(UrlConnectionRetrieveFileTransfer.java:237)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:639)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:381)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:95)
+	at org.eclipse.equinox.internal.p2.updatesite.ECFTransport.transfer(ECFTransport.java:284)
+	at org.eclipse.equinox.internal.p2.updatesite.ECFTransport.performDownload(ECFTransport.java:193)
+	at org.eclipse.equinox.internal.p2.updatesite.ECFTransport.download(ECFTransport.java:167)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.parseFeature(UpdateSite.java:191)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeaturesFromSite(UpdateSite.java:453)
+	at org.eclipse.equinox.internal.p2.updatesite.UpdateSite.loadFeatures(UpdateSite.java:376)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepository.generateMetadata(UpdateSiteMetadataRepository.java:108)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepository.<init>(UpdateSiteMetadataRepository.java:73)
+	at org.eclipse.equinox.internal.p2.updatesite.metadata.UpdateSiteMetadataRepositoryFactory.load(UpdateSiteMetadataRepositoryFactory.java:48)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:485)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:452)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:435)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.gatherAvailableInstallableUnits(SimplePlanner.java:196)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getProvisioningPlan(SimplePlanner.java:235)
+	at org.eclipse.equinox.internal.provisional.p2.ui.operations.ProvisioningUtil.getProvisioningPlan(ProvisioningUtil.java:210)
+	at org.eclipse.equinox.internal.provisional.p2.ui.actions.InstallAction.computeProvisioningPlan(InstallAction.java:80)
+	at com.aptana.ide.internal.update.manager.P2PluginManager$2.run(P2PluginManager.java:185)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.equinox.p2.updatesite 4 0 2009-06-03 00:07:59.088
+!MESSAGE Error reading feature http://update.aptana.com/update/frameworks/ext/features/com.extjs.ext.1.0_1.0.1.0003.jar.
+!SESSION 2009-06-03 00:11:51.356 -----------------------------------------------
+eclipse.buildId=I20080617-2000
+java.version=1.6.0_0
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2009-06-03 00:11:59.831
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2009-06-03 00:11:59.831
+!MESSAGE Cannot bind to an undefined command: plug-in='com.aptana.ide.editors', id='org.eclipse.ui.edit.text.openExternalFile'
+
+!ENTRY org.eclipse.jface 2 0 2009-06-03 00:12:07.875
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-06-03 00:12:07.875
+!MESSAGE A conflict occurred for ALT+SHIFT+V:
+Binding(ALT+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.move.element,Move - Refactoring ,
+		Move the selected element to a new location,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+V,
+	ParameterizedCommand(Command(com.aptana.ide.editor.php.contentassist.refactoring.modulemove,Move module,
+		Moves module,
+		Category(com.aptana.ide.editor.php.contentassist.refactoring,Aptana Refactoring,Aptana Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,com.aptana.ide.editor.php.refactoring.MoveModuleRefactoringAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-06-03 00:12:07.875
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(com.aptana.ide.editor.php.contentassist.refactoring.modulerename,Rename module,
+		Renames module,
+		Category(com.aptana.ide.editor.php.contentassist.refactoring,Aptana Refactoring,Aptana Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,com.aptana.ide.editor.php.refactoring.RenameModuleRefactoringAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.aptana.ide.intro 4 0 2009-06-03 00:12:18.930
+!MESSAGE (Build 1.4.0.24520) [ERROR] Feature store does not exist
+
+!ENTRY com.aptana.ide.server.portal 4 0 2009-06-03 00:12:21.347
+!MESSAGE (Build 1.4.0.24372) [ERROR] License Channel: Days Left:19
+
+!ENTRY com.aptana.ide.server.portal 4 0 2009-06-03 00:12:21.348
+!MESSAGE (Build 1.4.0.24372) [ERROR] License Channel: Key is valid but unable to get calendar from the key's expiration.
+
+!ENTRY com.aptana.ide.server.portal 4 0 2009-06-03 00:12:21.403
+!MESSAGE (Build 1.4.0.24372) [ERROR] License Channel: Days Left:19
+
+!ENTRY com.aptana.ide.server.portal 4 0 2009-06-03 00:12:21.404
+!MESSAGE (Build 1.4.0.24372) [ERROR] License Channel: Key is valid but unable to get calendar from the key's expiration.
+
+!ENTRY com.aptana.ide.update 4 0 2009-06-03 00:12:29.368
+!MESSAGE (Build 1.4.0.24431) [ERROR] The element type "category" must be terminated by the matching end-tag "</category>".
+!STACK 0
+org.xml.sax.SAXParseException: The element type "category" must be terminated by the matching end-tag "</category>".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1234)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:525)
+	at com.aptana.ide.internal.update.manager.AbstractPluginManager.parseXML(AbstractPluginManager.java:333)
+	at com.aptana.ide.internal.update.manager.AbstractPluginManager.cacheImages(AbstractPluginManager.java:208)
+	at com.aptana.ide.internal.update.manager.AbstractPluginManager.access$4(AbstractPluginManager.java:200)
+	at com.aptana.ide.internal.update.manager.AbstractPluginManager$1.run(AbstractPluginManager.java:170)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2009-06-03 00:14:04.223
+!MESSAGE Plug-in 'org.eclipse.eclipsemonkey' contributed an invalid Menu Extension (Path: 'org.eclipse.eclipsemonkey.navigatorContextMenu' is invalid): org.eclipse.eclipsemonkey.action2js
+
+!ENTRY org.eclipse.ui 4 4 2009-06-03 00:14:04.224
+!MESSAGE Plug-in 'org.eclipse.eclipsemonkey' contributed an invalid Menu Extension (Path: 'org.eclipse.eclipsemonkey.navigatorContextMenu' is invalid): org.eclipse.eclipsemonkey.action4js
+
+!ENTRY org.eclipse.ui 4 4 2009-06-03 00:14:04.224
+!MESSAGE Plug-in 'org.eclipse.eclipsemonkey' contributed an invalid Menu Extension (Path: 'org.eclipse.eclipsemonkey.navigatorContextMenu' is invalid): org.eclipse.eclipsemonkey.action5js
+
+!ENTRY org.eclipse.ui 4 4 2009-06-03 00:14:04.224
+!MESSAGE Plug-in 'org.eclipse.eclipsemonkey' contributed an invalid Menu Extension (Path: 'org.eclipse.eclipsemonkey.navigatorContextMenu' is invalid): org.eclipse.eclipsemonkey.action6js
+
+!ENTRY com.aptana.ide.editor.php 4 0 2009-06-03 00:15:57.012
+!MESSAGE (Build 1.0.1.24854) [ERROR] null
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.ide.editor.php.PHPSourceEditor$3.reconciled(PHPSourceEditor.java:640)
+	at com.aptana.ide.editor.php.parsing.PHPBackgroundParser.doParse(PHPBackgroundParser.java:289)
+	at com.aptana.ide.editor.php.parsing.PHPBackgroundParser.parseStructure(PHPBackgroundParser.java:494)
+	at com.aptana.ide.editor.php.parsing.PHPParser.parseAll(PHPParser.java:162)
+	at com.aptana.ide.editor.php.parsing.PHPBackgroundParser.parseAll(PHPBackgroundParser.java:356)
+	at com.aptana.ide.parsing.AbstractParser.changeLanguage(AbstractParser.java:416)
+	at com.aptana.ide.editor.html.parsing.HTMLParser.processNestedLanguage(HTMLParser.java:770)
+	at com.aptana.ide.editor.html.parsing.HTMLParser.processNestedLanguage(HTMLParser.java:754)
+	at com.aptana.ide.editor.html.parsing.HTMLParser.parseProcessingInstruction(HTMLParser.java:565)
+	at com.aptana.ide.editor.html.parsing.HTMLParser.parseAll(HTMLParser.java:238)
+	at com.aptana.ide.parsing.AbstractParser.parse(AbstractParser.java:887)
+	at com.aptana.ide.editors.unified.FileService.doParse(FileService.java:524)
+	at com.aptana.ide.editors.unified.FileService.doFullParse(FileService.java:481)
+	at com.aptana.ide.editors.unified.FileService.connectSourceProvider(FileService.java:222)
+	at com.aptana.ide.editors.managers.FileContextManager.connectSourceProvider(FileContextManager.java:217)
+	at com.aptana.ide.editors.unified.UnifiedEditor.updateFileInfo(UnifiedEditor.java:2119)
+	at com.aptana.ide.editor.html.HTMLSourceEditor.updateFileInfo(HTMLSourceEditor.java:459)
+	at com.aptana.ide.editor.php.PHPSourceEditor.updateFileInfo(PHPSourceEditor.java:671)
+	at com.aptana.ide.editors.unified.UnifiedEditor.doSetInput(UnifiedEditor.java:1995)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3025)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:446)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:758)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:755)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2483)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3043)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3070)
+	at com.aptana.ide.editors.unified.UnifiedEditor.init(UnifiedEditor.java:336)
+	at com.aptana.ide.editor.html.HTMLSourceEditor.init(HTMLSourceEditor.java:231)
+	at com.aptana.ide.editor.php.PHPSourceEditor.init(PHPSourceEditor.java:1050)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:213)
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:187)
+	at com.aptana.ide.editor.html.MultiPageHTMLEditor.createPage0(MultiPageHTMLEditor.java:360)
+	at com.aptana.ide.editor.html.MultiPageHTMLEditor.createPages(MultiPageHTMLEditor.java:839)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:310)
+	at com.aptana.ide.editor.html.HTMLEditor.createPartControl(HTMLEditor.java:405)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:661)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:428)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:594)
+	at org.eclipse.ui.internal.EditorReference.getEditor(EditorReference.java:266)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2820)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2729)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2721)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2673)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2668)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2652)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2643)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:646)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:605)
+	at com.aptana.ide.core.ui.wizards.BaseWizard.openFileInEditor(BaseWizard.java:470)
+	at com.aptana.ide.core.ui.wizards.BaseWizard.access$1(BaseWizard.java:454)
+	at com.aptana.ide.core.ui.wizards.BaseWizard$2.run(BaseWizard.java:412)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1782)
+	at com.aptana.ide.core.ui.wizards.BaseWizard.performFinish(BaseWizard.java:370)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:742)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:373)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1158)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3401)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3033)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:117)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:583)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:500)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1158)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3401)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3033)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:382)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.core.resources 4 2 2009-06-03 00:16:56.668
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.ide.php.interpreters.LocalModule.<init>(LocalModule.java:61)
+	at com.aptana.ide.php.interpreters.PHPLocalModuleFactory.getModuleUnsafe(PHPLocalModuleFactory.java:113)
+	at com.aptana.ide.php.interpreters.ProjectBuildPath$PHPElementsDeltaVisitor.visit(ProjectBuildPath.java:193)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at com.aptana.ide.php.interpreters.ProjectBuildPath$1.resourceChanged(ProjectBuildPath.java:521)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:288)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:282)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:148)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:313)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:367)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.access$1(UIPerformChangeOperation.java:1)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation$1.run(UIPerformChangeOperation.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation$2.run(UIPerformChangeOperation.java:84)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3378)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3036)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:172)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:370)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:317)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:558)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:154)
+	at org.eclipse.ltk.ui.refactoring.resource.DeleteResourcesWizard$DeleteResourcesRefactoringConfigurationPage.performFinish(DeleteResourcesWizard.java:147)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:622)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:446)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:624)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1158)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3401)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3033)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:144)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:156)
+	at org.eclipse.ltk.internal.ui.refactoring.actions.DeleteResourcesHandler.execute(DeleteResourcesHandler.java:41)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:281)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommandInContext(HandlerService.java:270)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.runCommand(LTKLauncher.java:95)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.openDeleteWizard(LTKLauncher.java:47)
+	at org.eclipse.ui.actions.DeleteResourceAction.run(DeleteResourceAction.java:480)
+	at org.eclipse.ui.views.navigator.RefactorActionGroup.handleKeyPressed(RefactorActionGroup.java:105)
+	at org.eclipse.ui.views.navigator.MainActionGroup.handleKeyPressed(MainActionGroup.java:337)
+	at org.eclipse.ui.views.navigator.ResourceNavigator.handleKeyPressed(ResourceNavigator.java:796)
+	at org.eclipse.ui.views.navigator.ResourceNavigator$7.keyPressed(ResourceNavigator.java:448)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:155)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1158)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1167)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1194)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:698)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:2761)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:702)
+	at org.eclipse.swt.widgets.Tree.gtk_key_press_event(Tree.java:1920)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1543)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4502)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4099)
+	at org.eclipse.swt.internal.gtk.OS._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gtk_main_do_event(OS.java:5783)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1177)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1541)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3031)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:382)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+!SESSION 2009-06-03 00:17:56.181 -----------------------------------------------
+eclipse.buildId=I20080617-2000
+java.version=1.6.0_0
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2009-06-03 00:18:01.615
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2009-06-03 00:18:01.615
+!MESSAGE Cannot bind to an undefined command: plug-in='com.aptana.ide.editors', id='org.eclipse.ui.edit.text.openExternalFile'
+
+!ENTRY org.eclipse.jface 2 0 2009-06-03 00:18:08.308
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-06-03 00:18:08.308
+!MESSAGE A conflict occurred for ALT+SHIFT+V:
+Binding(ALT+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.move.element,Move - Refactoring ,
+		Move the selected element to a new location,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+V,
+	ParameterizedCommand(Command(com.aptana.ide.editor.php.contentassist.refactoring.modulemove,Move module,
+		Moves module,
+		Category(com.aptana.ide.editor.php.contentassist.refactoring,Aptana Refactoring,Aptana Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,com.aptana.ide.editor.php.refactoring.MoveModuleRefactoringAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-06-03 00:18:08.308
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(com.aptana.ide.editor.php.contentassist.refactoring.modulerename,Rename module,
+		Renames module,
+		Category(com.aptana.ide.editor.php.contentassist.refactoring,Aptana Refactoring,Aptana Refactoring Actions,true),
+		ActionDelegateHandlerProxy(null,com.aptana.ide.editor.php.refactoring.RenameModuleRefactoringAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.aptana.ide.intro 4 0 2009-06-03 00:18:17.520
+!MESSAGE (Build 1.4.0.24520) [ERROR] Feature store does not exist
+
+!ENTRY org.eclipse.ui 4 0 2009-06-03 00:18:18.159
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.ide.editors.unified.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:541)
+	at com.aptana.ide.editors.unified.contentassist.CompletionProposalPopup.access$13(CompletionProposalPopup.java:534)
+	at com.aptana.ide.editors.unified.contentassist.CompletionProposalPopup$2.handleEvent(CompletionProposalPopup.java:373)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1158)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1182)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1167)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:285)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:222)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:699)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1541)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3031)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:382)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY com.aptana.ide.server.portal 4 0 2009-06-03 00:18:19.775
+!MESSAGE (Build 1.4.0.24372) [ERROR] License Channel: Days Left:19
+
+!ENTRY com.aptana.ide.server.portal 4 0 2009-06-03 00:18:19.775
+!MESSAGE (Build 1.4.0.24372) [ERROR] License Channel: Key is valid but unable to get calendar from the key's expiration.
+
+!ENTRY com.aptana.ide.server.portal 4 0 2009-06-03 00:18:19.831
+!MESSAGE (Build 1.4.0.24372) [ERROR] License Channel: Days Left:19
+
+!ENTRY com.aptana.ide.server.portal 4 0 2009-06-03 00:18:19.832
+!MESSAGE (Build 1.4.0.24372) [ERROR] License Channel: Key is valid but unable to get calendar from the key's expiration.

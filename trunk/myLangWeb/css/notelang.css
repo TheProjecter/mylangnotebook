@@ -1,0 +1,49 @@
+.test {
+   text-decoration:line-through;
+}
+.categoryCell {
+   margin: 3px 3px 3px 8px;
+   padding: 5px 10px 4px;
+}
+
+.linkCategory a{
+   text-decoration: none;
+   color:#3764A0;re
+}
+
+.item {
+   margin: 2px 0px 2px 0px;
+   padding: 4px 2px 4px 0px;
+}
+
+.item span {
+   padding: 0px 2px 0px 2px;
+   margin: 0px 2px 0px 2px;
+   /* border: 1px solid black; */
+   background: #99BBE8;
+}
+
+.item span.fails {
+   padding: 0px 6px 0px 6px;
+}
+
+.item span.black {
+   background: black;
+}
+
+.item span.red {
+   background: red;
+}
+
+.item span.yellow {
+   background: yellow;
+}
+
+.item span.green {
+   background: green;
+}
+
+.selected {
+   font-weight: bold;
+}
+
