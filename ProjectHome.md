@@ -1,0 +1,1 @@
+With this application you can store all the concepts of vocabulary, verbs,... that you are interested in remember when you´re learning new languages. Additionally is possible to study them with a simple method, ordering the saved items by the number of the fails.
